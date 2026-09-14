@@ -19,7 +19,7 @@ import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String SITE_URL = "https://filime.xyz";
+    private static final String SITE_URL = "https://filimexyz.umufasha.xyz";
 
     private WebView webView;
     private SwipeRefreshLayout swipeRefresh;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
         settings.setDatabaseEnabled(true);
-        settings.setLoadWithOverviewMode(true);
+        settings.setLoadWithOverviewMode(true);app
         settings.setUseWideViewPort(true);
         settings.setCacheMode(WebSettings.LOAD_DEFAULT);
 
